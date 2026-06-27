@@ -1,0 +1,14 @@
+region,target,total_cells,hiFR_cells,n_sessions,max_simult,median_simult,max_simult_hiFR,median_simult_hiFR
+MRN,True,1016,239,11,217,72.0,45,20.0
+SCm,True,356,55,7,87,48.0,14,7.0
+SNr,True,306,75,4,129,81.0,40,13.5
+GRN,True,0,0,0,0,0.0,0,0.0
+IRN,True,0,0,0,0,0.0,0,0.0
+MB,False,874,123,6,348,71.5,40,18.5
+SCig,False,807,132,4,366,188.0,37,35.5
+ZI,False,289,44,4,175,49.5,21,10.0
+APN,False,247,85,2,185,123.5,66,42.5
+SCsg,False,178,6,6,84,16.5,3,0.5
+SCs,False,157,10,4,73,34.5,4,3.0
+PAG,False,140,26,3,85,41.0,19,4.0
+RN,False,58,32,1,58,58.0,32,32.0

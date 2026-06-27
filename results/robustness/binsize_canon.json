@@ -1,0 +1,23 @@
+{
+  "bin": "canon",
+  "bin_ms": null,
+  "n_triple_raw": 59,
+  "n_triple_FDR_total": 0,
+  "n_triple_FDR_per_region": {
+    "GRN": 0,
+    "MRN": 0,
+    "SNr": 0,
+    "SCm": 0,
+    "IRN": 0
+  },
+  "MRN_pooled_SD": 0.05886582345391739,
+  "MRN_pooled_CI": [
+    0.0012809847007796435,
+    0.11663177056320785
+  ],
+  "MRN_pooled_p": 0.03376792606846113,
+  "MRN_pooled_ci_lo": 0.0012809847007796435,
+  "MRN_decode_AUC": 0.5295255124469994,
+  "MRN_decode_p": 0.05486284289276808,
+  "n_cells": 1620
+}

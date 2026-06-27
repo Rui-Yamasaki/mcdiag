@@ -1,0 +1,23 @@
+{
+  "knob": "fr_floor",
+  "value": 10,
+  "n_triple_raw_total": 59,
+  "n_triple_FDR_total": 0,
+  "n_triple_FDR_per_region": {
+    "GRN": 0,
+    "MRN": 0,
+    "SNr": 0,
+    "SCm": 0,
+    "IRN": 0
+  },
+  "MRN_pooled_SD": 0.0589,
+  "MRN_pooled_CI": [
+    0.0013,
+    0.1166
+  ],
+  "MRN_pooled_p": 0.0338,
+  "MRN_pooled_n_cells": 356,
+  "MRN_decode_AUC": 0.5279,
+  "MRN_decode_p": 0.0574,
+  "MRN_decode_n_sessions": 28
+}

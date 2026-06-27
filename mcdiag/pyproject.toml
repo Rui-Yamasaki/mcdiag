@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcdiag"
+version = "0.1.0"
+description = "Movement-control diagnostic for neural decision-signal analyses"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "BSD-3-Clause" }
+authors = [{ name = "Rui Yamasaki" }]
+keywords = ["neuroscience", "decision-making", "movement-confound", "decoding", "calibration"]
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "scikit-learn>=1.0",
+]
+
+[project.optional-dependencies]
+pandas = ["pandas>=1.3"]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+mcdiag = "mcdiag.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/REPLACE_ME/mcdiag"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mcdiag = []

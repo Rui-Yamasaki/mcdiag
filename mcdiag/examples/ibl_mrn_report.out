@@ -1,0 +1,33 @@
+MOVEMENT CONTROL CALIBRATION
+============================================================
+blocks: 28  cells/block: 8-52  trials/block: 10-63
+measured choice-to-movement correlation (realistic rho): 0.532
+threshold signal injected: 0.24 SD per cell  (uncontrolled preserve-test AUC 0.584)
+
+control     no-signal  preserve  retain  remove  valid
+linear          0.489     0.607    1.26   0.508    yes
+ridge           0.496     0.606    1.25   0.540    yes
+pca             0.483     0.598    1.16   0.529    yes
+expanded        0.497     0.540    0.48   0.491     no
+crossfit        0.468     0.485   -0.18   0.479     no
+
+RECOMMENDED CONTROL: linear
+  valid controls ranked by movement removed (most first): linear, pca, ridge
+  at the realistic rho (0.532) a threshold signal recovers to AUC 0.568 through this control
+
+why each rejected or sub-optimal control is not recommended for this data:
+  - ridge: valid, but removes less movement than linear (remove-test AUC 0.540 vs 0.508), can under-remove low-variance confound, so linear is preferred.
+  - pca: valid, but removes less movement than linear (remove-test AUC 0.529 vs 0.508), can under-remove low-variance confound, so linear is preferred.
+  - expanded: FAILS preserve test, retains 48 percent of a movement-orthogonal signal, over-corrects by overfitting at this trial count.
+  - crossfit: FAILS preserve test, retains -18 percent of a movement-orthogonal signal, over-corrects by overfitting at this trial count.
+
+RECOVERABILITY CHECK
+============================================================
+firing rate: 20 Hz   trials: 25   simultaneous cells: 91
+
+per-cell single-trial decision signal: NOT distinguishable
+  achievable per-cell AUC 0.573 (5th pct 0.368) vs bar 0.567  (gap -0.006)
+population step-versus-ramp dynamics: NOT recoverable
+  91 simultaneous cells vs 120-cell bar  (gap +29 cells)
+
+note: too few trials to separate the signal from chance (5th-percentile AUC 0.368); 29 cells short of the 120-cell population bar

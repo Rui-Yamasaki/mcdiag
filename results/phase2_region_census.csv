@@ -1,0 +1,6 @@
+region,poolable_N,sessions,median_session_N,sampled_insertions,good_units,good_hiFR20,sel_hiFR20_obs,sel_hiFR20_excess,est_sel_hiFR20_full
+GRN,678,17,30,8,300,94,22,5.9,12
+MRN,5509,120,36,12,336,91,15,5.6,66
+SNr,963,22,27,5,35,12,4,3.4,15
+SCm,3257,68,37,8,225,52,4,0.0,0
+IRN,1434,34,33,7,112,24,8,3.5,17

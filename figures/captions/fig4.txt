@@ -1,0 +1,21 @@
+Figure 4. The decision signal at the boundary, not below it.
+
+(a) Movement-controlled choice decode AUC for each region under the valid linear control (filled blue
+circles) and under the over-correcting expanded control (open vermillion squares), for the IBL
+Brain-Wide Map (top four rows, bracket labelled IBL) and the Steinmetz 2019 dataset (bottom three
+rows, bracket labelled Steinmetz). Horizontal bars are 95 percent bootstrap confidence intervals
+resampled over sessions. The dotted vertical line is chance (AUC 0.50) and the dashed vertical line is
+the 0.57 recoverability bar. No region's confidence interval lies entirely above the 0.57 line. n is
+given as decodable sessions and pooled cells per region: IBL MRN 28 sessions, 356 cells; IBL SCm 18,
+239; IBL IRN 9, 97; IBL GRN 6, 86; Steinmetz MRN 7, 223; Steinmetz SC 6, 168; Steinmetz SNr 4, 79. IBL
+SNr is omitted because only one session is decodable.
+
+(b) Number of choice-selective cells, of 301 pooled across IBL regions, whose choice signal remains
+significant after movement control, for three controls: expanded (over-removes), linear (valid
+middle), and pca (under-removes). The dashed line marks the linear count. Bars are raw survivor counts
+(per-cell choice-AUC permutation test, p < 0.05, 2000 permutations) and have no error bars.
+
+Colour coding: blue marks the valid linear control and vermillion marks the over-correcting expanded
+control in (a); in (b) vermillion marks expanded, green marks linear, and orange marks pca. Markers in
+(a) are distinguished by shape as well as colour (filled circle versus open square). Print width 180
+mm (double column).

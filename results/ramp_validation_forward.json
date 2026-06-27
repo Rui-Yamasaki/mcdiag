@@ -1,0 +1,7 @@
+{
+  "ramp_bruteforce_max_abs_diff": 2.1316282072803006e-14,
+  "ramp_hmmlearn_k50_abs_diff": 3.637978807091713e-12,
+  "K_bruteforce": 5,
+  "K_production": 50,
+  "note": "RAMP-side forward-likelihood checks (discretised bounded-DDM Poisson-HMM). Distinct from the STEPPING hmmlearn_check (~2.27e-13) in phase1_recovery_validation.json. brute-force = canonical model_loglik vs full path enumeration at K=5, T=6; hmmlearn = model_loglik vs PoissonHMM.score() at production K=50 on a ramp fixture (160 trials). brute-force ~2e-14 matches docs/ramp_validation.md; hmmlearn diff is machine precision (~3.6e-12 absolute, ~1e-15 relative to the ~1e3 LL) -- the doc's literal 0.0 was on data sampled from the discretised chain, not real fixture spike trains."
+}

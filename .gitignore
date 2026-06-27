@@ -1,0 +1,57 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- Virtual environment ----
+.venv/
+venv/
+
+# ---- IBL / ONE data cache (can be large; never commit) ----
+/data/*
+!/data/.gitkeep
+
+# ---- Logs / scratch ----
+install.log
+*.log
+
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
+
+# ---- Secrets / credentials (never commit) ----
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+# ONE / Alyx local auth + cache (the PUBLIC Open-Alyx password lives in src/ibl_one.py by design)
+.one/
+.one_params
+.caches/
+
+# ---- Large derived caches / extraction scratch (regenerable; NOT consumed by the figures) ----
+# Per-trial feature matrices + bin-size re-extraction scratch (tens to ~130 MB total). The figure
+# pipeline reads only the small aggregate CSVs (e.g. results/robustness/binsize_summary.csv, kept).
+results/steinmetz_features.csv
+results/phase2_sel_features.csv
+results/phase2_sel_features_full.csv
+results/robustness/binsize_feat_*.csv
+results/robustness/binsize_cache/
+results/robustness/*.out
+*.pkl
+*.h5
+results/phase2_sel_features.csv
+results/phase2_sel_features_full.csv
+
+# ---- Bundled binary fixtures ----
+# Ignore stray .npy caches, but KEEP the tiny bundled demo window pool (16 KB, float-only).
+*.npy
+!demo/window_pool.npy
+
+__pycache__/
+*.log
+
+__pycache__/
+*.log

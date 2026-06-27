@@ -1,0 +1,23 @@
+{
+  "bin": "b50",
+  "bin_ms": 50,
+  "n_triple_raw": 49,
+  "n_triple_FDR_total": 0,
+  "n_triple_FDR_per_region": {
+    "GRN": 0,
+    "MRN": 0,
+    "SNr": 0,
+    "SCm": 0,
+    "IRN": 0
+  },
+  "MRN_pooled_SD": 0.047604471293642994,
+  "MRN_pooled_CI": [
+    -0.009618794610765275,
+    0.10422319999031882
+  ],
+  "MRN_pooled_p": 0.09250028584547915,
+  "MRN_pooled_ci_lo": -0.009618794610765275,
+  "MRN_decode_AUC": 0.5269173836042188,
+  "MRN_decode_p": 0.0773067331670823,
+  "n_cells": 1620
+}

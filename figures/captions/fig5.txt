@@ -1,0 +1,27 @@
+Figure 5. A small movement-independent choice code.
+
+(a) Survivor counts at four stages of the confound cascade applied under the published wheel-plus-body-
+pose linear movement control with within-region false discovery rate correction (q < 0.05), pooled
+across the Brain-Wide Map
+regions: choice-selective, movement-independent, stimulus or prior-independent, and triple-coded
+(leading and movement-independent and stimulus or prior-independent). Each horizontal bar gives the
+total count (grey) with the superior colliculus (SCm) contribution overlaid (blue); the number to the
+right of each bar is the total count, with the SCm count in parentheses. The movement-independent and
+stimulus or prior-independent stages are parallel single-confound filters and the triple-coded stage
+is their intersection with the leading filter, so the four counts are not a nested sequence. n = 1620
+high-firing-rate cells entering the cascade; bars are counts and have no error bars.
+
+(b) Per-cell choice decode AUC before the control (raw deliberation-window rate) and after the
+recomputed 4-regressor linear movement control, for the three superior colliculus triple-coded cells,
+shown as connected points
+(one line per cell). The dashed horizontal line is the 0.57 recoverability bar and the dotted
+horizontal line is chance (AUC 0.50). n = 3 cells; points are single-cell AUCs and have no error bars.
+
+(c) Distribution of per-cell choice decode AUC across the population after the recomputed 4-regressor
+linear movement control. Grey bars are cells near chance and blue bars are the selective tail (AUC
+above 0.65 or below
+0.35). The dotted vertical line is chance (0.50) and the dashed vertical lines are 0.35 and 0.65. The
+text gives the median AUC and the fraction of cells above 0.65. n = 1620 cells; bars are cell counts.
+
+Colour coding: blue marks superior colliculus cells in (a) and (b) and the selective tail in (c);
+grey marks other regions in (a) and the near-chance bulk in (c). Print width 180 mm (double column).

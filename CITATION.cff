@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying preprint and this repository."
+title: "Movement controls distort decision-signal estimates in opposite directions: a calibrated, ground-truth test and a recoverability framework"
+abstract: >-
+  Reanalysis code, figures, the reproducible Supplementary Information, and the mcdiag
+  movement-control diagnostic for a calibrated, ground-truth test of how movement controls
+  and recording yield gate what can be inferred about a single-trial decision signal in the
+  decision-related midbrain and hindbrain (International Brain Laboratory Brain-Wide Map;
+  replicated in Steinmetz et al. 2019). No raw neural data is bundled; the pipeline reads
+  small cached result files.
+type: software
+authors:
+  - family-names: Yamasaki
+    given-names: Rui
+version: "1.0.0"
+date-released: "2026-06-13"
+license: BSD-3-Clause
+repository-code: "https://github.com/Rui-Yamasaki/mcdiag"
+doi: "10.5281/zenodo.20686415"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20686415"
+    description: "Zenodo software archive (v1.0.0)"
+keywords:
+  - neuroscience
+  - decision-making
+  - movement confound
+  - identifiability
+  - recoverability
+  - International Brain Laboratory
+preferred-citation:
+  type: article
+  title: "Movement controls distort decision-signal estimates in opposite directions: a calibrated, ground-truth test and a recoverability framework"
+  authors:
+    - family-names: Yamasaki
+      given-names: Rui
+  year: 2026
+  doi: "10.21203/rs.3.rs-10037105/v1"
+  notes: "Preprint on Research Square."

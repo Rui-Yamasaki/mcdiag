@@ -1,0 +1,2 @@
+# data/ is gitignored except this file, so the empty dir is preserved in git.
+# IBL/ONE downloads (spike times, clusters, trials) cache here at runtime.

@@ -1,0 +1,24 @@
+Figure 1. The ambiguity, the generative models, and the inference-engine validation.
+
+(a) Latent single-trial firing-rate trajectories from the stepping generator (top, blue) and the
+ramping generator (bottom, orange), at a representative 20 Hz operating point over a 1000 ms window
+(41 bins of 25 ms). Each sub-panel shows 10 faint single trials and the family mean as a thick line;
+the dashed black line is the common trial-average that both families produce by construction. The y
+axis is latent firing rate (Hz) and the x axis is time in the window (ms). n = 10 single trials per
+family; each family mean is computed from 20000 Monte-Carlo trials. No error bars are shown.
+
+(b) Schematics of the two generators. Stepping (blue) is a two-state model that jumps once from a
+baseline state to an elevated state. Ramping (orange) is a drift-plus-diffusion process on a gradual
+latent grid that advances to an absorbing bound. This panel is a schematic and contains no data.
+
+(c) Inference-engine validation. Absolute difference in forward log-likelihood between independent
+implementations, on a logarithmic x axis, as horizontal stems ending in a circle. The three
+comparisons are ramp versus brute-force 2.1e-14 (orange), step versus hmmlearn 2.3e-13 (blue), and
+ramp versus hmmlearn 3.6e-12 (orange). The grey shaded band marks the machine-precision range
+(1e-16 to 1e-11) and the dashed green vertical line marks the inference-relevant scale (1e-6). The x
+axis is the absolute forward-log-likelihood difference. Each value is the maximum absolute difference
+over the compared trials (one paired comparison per row); no error bars are shown.
+
+Colour coding: blue marks the stepping model and orange marks the ramping model throughout; the dashed
+black line in (a) is the shared trial-average of both families; the green line in (c) is the
+inference-relevant reference. Print width about 180 mm (double column).

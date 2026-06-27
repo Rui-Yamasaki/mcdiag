@@ -1,0 +1,11 @@
+dataset,region,n_choice_sig,movesurv_linear,movesurv_expanded,movesurv_pca_expanded,movesurv_published
+IBL,MRN,143,66,34,96,64.0
+IBL,SCm,80,35,14,54,35.0
+IBL,SNr,19,6,3,8,6.0
+IBL,GRN,22,12,9,15,12.0
+IBL,IRN,37,14,6,20,14.0
+IBL,ALL,301,133,66,193,131.0
+Steinmetz,MRN,86,51,41,57,
+Steinmetz,SC,64,37,22,42,
+Steinmetz,SNr,21,13,9,15,
+Steinmetz,ALL,171,101,72,114,

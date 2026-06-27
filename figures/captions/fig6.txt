@@ -1,0 +1,24 @@
+Figure 6. Single-trial dynamics recovery is out of reach at current yields.
+
+(a) Maximum number of simultaneously recorded good-QC units per region across the full IBL Brain-Wide
+Map cohort, for the five decision-core regions ordered by their maximum. Bars are coloured by region.
+The dashed red line is the 120-cell requirement for population step-versus-ramp recovery. Good-QC units
+are clusters carrying the IBL good-unit QC label, at any firing rate. The full cohort is 205 insertions
+across 176 sessions, with 259 region-sessions in total (MRN 118, SCm 68, IRN 33, SNr 23, GRN 17), of
+which 0 reach 120 units. Bars are counts and have no error bars.
+
+(b) Movement-controlled choice decode AUC for MRN under the valid linear control, for the IBL dataset
+(purple) and the Steinmetz 2019 dataset (pink). Error bars are 95 percent bootstrap confidence
+intervals resampled over sessions. The dashed line is the 0.57 recoverability bar and the dotted line
+is chance (AUC 0.50). n = 28 sessions (356 cells) for IBL MRN and 7 sessions (223 cells) for Steinmetz
+MRN.
+
+(c) Single-cell step-versus-ramp recovery rate against pooled trial count N at 20 Hz firing rate under
+negative-binomial emissions (Fano 1.5 or greater), from the recovery grid. The dashed line is the 0.80
+recovery target and the dotted line is chance (0.50). The green star is the IBL single-unit operating
+point (median about 53 trials per session, per-cell choice AUC 0.53). Points are mean recovery rates
+over the grid at each N.
+
+Colour coding: in (a) each region has a fixed qualitative colour (MRN green, SCm orange, GRN grey, IRN
+purple, SNr blue); in (b) purple marks IBL and pink marks Steinmetz; in (c) black marks the recovery
+curve and green marks the IBL operating point. Print width 180 mm (double column).

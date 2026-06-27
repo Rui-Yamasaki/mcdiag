@@ -1,0 +1,2 @@
+frozen,reason,none_pass,linear_pass,expanded_pass,ridge_expanded_pass,crossfit_expanded_pass,pca_expanded_pass
+pca_expanded,lowest realistic-rho d=0.24 recovery among passers (0.574) -> most movement-removing while still preserving the orthogonal signal (retain 1.22),False,True,False,False,False,True

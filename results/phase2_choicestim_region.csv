@@ -1,0 +1,6 @@
+region,cells,err_testable,follow_choice,follow_stim,choice_sig_raw,choice_sig_fdr,pooledN_choice_raw
+GRN,146,66,40,26,15,0,728
+MRN,142,48,26,22,12,0,811
+SNr,17,7,3,4,4,0,604
+SCm,81,37,23,14,7,0,431
+IRN,44,18,7,11,5,0,256

@@ -1,0 +1,17 @@
+{
+  "rate_delib": {
+    "max_abs": 2.842170943040401e-14,
+    "max_rel": 2.463638599091374e-16,
+    "nan_mismatch": 0
+  },
+  "rate_early": {
+    "max_abs": 5.684341886080802e-14,
+    "max_rel": 2.986535796007712e-16,
+    "nan_mismatch": 0
+  },
+  "rate_peri": {
+    "max_abs": 5.684341886080802e-14,
+    "max_rel": 2.915047121064412e-16,
+    "nan_mismatch": 0
+  }
+}

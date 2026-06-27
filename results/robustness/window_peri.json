@@ -1,0 +1,23 @@
+{
+  "knob": "window",
+  "value": "peri",
+  "n_triple_raw_total": 53,
+  "n_triple_FDR_total": 0,
+  "n_triple_FDR_per_region": {
+    "GRN": 0,
+    "MRN": 0,
+    "SNr": 0,
+    "SCm": 0,
+    "IRN": 0
+  },
+  "MRN_pooled_SD": 0.1836,
+  "MRN_pooled_CI": [
+    0.1219,
+    0.2452
+  ],
+  "MRN_pooled_p": 0.0,
+  "MRN_pooled_n_cells": 356,
+  "MRN_decode_AUC": 0.5333,
+  "MRN_decode_p": 0.0399,
+  "MRN_decode_n_sessions": 28
+}

@@ -1,0 +1,6 @@
+region,region_sessions,median_simul_goodQC,max_simul_goodQC,sessions_ge120_goodQC,max_simul_allunits,sessions_ge120_allunits
+MRN,118,18.0,91,0,639,76
+SCm,68,17.5,90,0,723,48
+IRN,33,18.0,73,0,626,21
+SNr,23,3.0,36,0,195,6
+GRN,17,28.0,79,0,822,12

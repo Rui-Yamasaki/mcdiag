@@ -1,0 +1,4 @@
+metric,steinmetz,bar,ibl
+"per-cell AUC (raw, equal-contrast)",0.6025365198679556,0.57,0.53
+per-cell AUC (finite-sample debiased),0.5348604713896887,0.57,0.53
+pooled decision effect (SD),0.09455165690529829,0.24,0.085

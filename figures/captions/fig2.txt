@@ -1,0 +1,29 @@
+Figure 2. The step-versus-ramp identifiability map.
+
+Throughout, each recovery rate is the fraction of correctly recovered generators over R = 40 repeats,
+and no error bars are shown.
+
+(a) Recovery map under realistic negative-binomial emissions (overdispersed, Fano >= 1.5; ramp
+diffusion sigma = 0.4). Heatmap of the step-versus-ramp recovery rate (cividis colour scale from 0.50
+to 1.00) over mean firing rate (y axis, Hz) and pooled trial count N (x axis). The white dashed contour
+marks the 0.80 recovery level. The circled point with a callout is the IBL single-unit operating point
+(about 40 trials at 20 Hz, recovery 0.56), which would require pooling to N of about 320 to reach 0.80.
+
+(b) Recovery rate versus pooled trial count N at 20 Hz on the same data, for two fitters: a misspecified
+Poisson fit (grey squares) and a matched negative-binomial fit (green circles). At N = 40, 160, 320 the
+Poisson values are 0.48, 0.53, 0.52 and the negative-binomial values are 0.56, 0.73, 0.80. The dotted
+line is chance (0.50) and the dashed line is the 0.80 target.
+
+(c) Recovery rate versus ramp diffusion sigma (firing rate 20 Hz, pooled K = 50), for three series:
+N = 320 pooling both families (grey circles), N = 160 both families (dark squares), and N = 160
+true-ramp trials only (orange dashed triangles). The dotted green vertical line marks the canonical
+sigma = 0.4; the dotted line is chance (0.50) and the dashed line is the 0.80 target.
+
+(d) Probability that the step model is selected versus generator stepiness (0 is pure ramp, 1 is pure
+step). Faint blue lines are individual pooled-N curves and the bold blue line is their average. The
+grey band marks the non-identifiable region where step and ramp are not distinguishable; the
+step-selection probability crosses 0.5 near stepiness 0.78.
+
+Colour coding: cividis encodes the continuous recovery rate in (a); grey marks the misspecified Poisson
+fit and green the matched negative-binomial fit in (b); blue marks the step model and orange the
+ramping family throughout. Print width about 180 mm (double column).

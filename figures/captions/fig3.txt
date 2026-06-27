@@ -1,0 +1,28 @@
+Figure 3. Movement controls distort the decision-signal estimate.
+
+(a) Three control-validity tests applied to six candidate movement controls (none, linear, ridge,
+pca, expanded, crossfit) on synthetic data whose injected signals are drawn from each session's own
+movement covariance. For each control, three grouped bars give the cross-validated choice decode AUC
+under three injected conditions: no-signal, with no choice signal added (dotted grey); preserve, with
+a movement-orthogonal choice signal of 0.24 SD per cell added (solid blue); and remove, with a
+pure-movement signal of 0.24 SD per cell added (hatched vermillion). The dotted horizontal line is
+chance (AUC 0.50) and the dashed blue line is the uncontrolled (none) preserve level. The blue star
+marks the expanded preserve bar and the vermillion star marks the pca remove bar. n = 28 co-recorded
+midbrain (MRN) sessions; bar height is the mean decode AUC over 14 synthetic repeats and error bars
+are 95 percent Monte-Carlo confidence intervals across repeats.
+
+(b) Movement-controlled choice decode AUC against injected per-cell effect size in SD units, one line
+per control, with the injected signal set to the measured choice-to-movement correlation (rho = 0.49).
+The dashed horizontal line is the 0.57 recoverability bar, the dotted horizontal line is chance, and
+the dotted vertical line is the 0.24 SD threshold injection. Colours and markers identify the control
+as in the legend; the linear control is drawn with a thicker line. n = 28 sessions; points are the
+mean over 14 synthetic repeats and shaded bands are 95 percent Monte-Carlo confidence intervals.
+
+(c) Number of choice-selective cells whose choice signal remains significant after movement control on
+the real Brain-Wide Map data, for three controls (expanded, linear, pca), out of 301 choice-selective
+cells pooled across regions. The dashed line marks the linear count. Bars are raw survivor counts
+(per-cell choice-AUC permutation test, p < 0.05, 2000 permutations); counts have no error bars.
+
+Colour coding: in (a) and (c) blue or green denotes the validated linear control context, vermillion
+denotes the over-correcting expanded control, and orange denotes the under-removing pca control; grey
+denotes the uncontrolled condition. Print width 180 mm (double column).
